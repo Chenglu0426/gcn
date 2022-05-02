@@ -3,8 +3,10 @@ import random
 import numpy as np
 import pandas as pd
 from tqdm import trange
-
+from joblib import Parallel, delayed
+import itertools
 from .alias import alias_sample, create_alias_table
+from .utils import partition_num
 
 class RandomWalker:
     def __init__(self, G, p = 1, q = 1, use_rejection_sampling = 0):
@@ -44,7 +46,19 @@ class RandomWalker:
                 break
         return walk
 
+    def simulate_walks(self, num_walks, walk_length, workers = 1, verbose = 0):
 
+        G = self.G
+
+        nodes = list(G.nodes())
+
+        results = Parallel(n_jobs = workers, verbose = verbose, )(
+            delayed(self._simulate_walks)(nodes, num, walk_length) for num in
+            partition_num(num_walks, workers))
+
+        walks = list(itertools.chain(*results))
+
+        return walks
 
 
 
