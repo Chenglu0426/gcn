@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f256465d-9219-4df5-b111-0800c0d433c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/examples/alias.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/deepwalk_wiki.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ge/classify.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ge/models/node2vec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ge/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ge/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ge/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ge/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ge/models/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ge/models/deepwalk.py" beforeDir="false" afterPath="$PROJECT_DIR$/ge/models/deepwalk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ge/walker.py" beforeDir="false" afterPath="$PROJECT_DIR$/ge/walker.py" afterDir="false" />
-    </list>
+    <list default="true" id="f256465d-9219-4df5-b111-0800c0d433c1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,6 +166,7 @@
       <workItem from="1650779879668" duration="12540000" />
       <workItem from="1651214593356" duration="657000" />
       <workItem from="1651412247689" duration="14327000" />
+      <workItem from="1651495250923" duration="256000" />
     </task>
     <servers />
   </component>
